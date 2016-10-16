@@ -4,7 +4,7 @@
   "description": "Extraction of docker doc menu",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node genMenu.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.22.0",
+    "node-static": "^0.7.9",
     "phantomjs": "^2.1.7"
   },
   "docker_doc_menu": {
@@ -23,6 +24,5 @@
     "home_page_name": "docker-doc-home.html",
     "menu_template": "docker-menu.pug",
     "menu_file": "index.html"
-
   }
 }
