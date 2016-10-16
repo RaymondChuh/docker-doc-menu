@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Docker Menu</title>
+  </head>
+  <body>
+    <h1>Docker menu</h1>
+    <ul>
+      <li><a href="https://docs.docker.com/">Welcome to the Docs</a></li>
+      <ul>
+        <ul>
+          <li><a href="https://docs.docker.com/engine/installation/mac/">Installation on Mac OS X</a></li>
+          <li><a href="https://docs.docker.com/engine/installation/windows/">Installation on Windows</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/engine/installation/linux/ubuntulinux/">Installation on Ubuntu</a></li>
+            <li><a href="https://docs.docker.com/engine/installation/linux/rhel/">Installation on Red Hat Enterprise Linux</a></li>
+            <li><a href="https://docs.docker.com/engine/installation/linux/centos/">Installation on CentOS</a></li>
+            <li><a href="https://docs.docker.com/engine/installation/linux/fedora/">Installation on Fedora</a></li>
+            <li><a href="https://docs.docker.com/engine/installation/linux/debian/">Installation on Debian</a></li>
+            <li><a href="https://docs.docker.com/engine/installation/linux/archlinux/">Installation on Arch Linux</a></li>
+            <li><a href="https://docs.docker.com/engine/installation/linux/cruxlinux/">Installation on CRUX Linux</a></li>
+            <li><a href="https://docs.docker.com/engine/installation/linux/frugalware/">Installation on FrugalWare</a></li>
+            <li><a href="https://docs.docker.com/engine/installation/linux/gentoolinux/">Installation on Gentoo</a></li>
+            <li><a href="https://docs.docker.com/engine/installation/linux/oracle/">Installation on Oracle Linux</a></li>
+            <li><a href="https://docs.docker.com/engine/installation/linux/SUSE/">Installation on openSUSE and SUSE Linux Enterprise</a></li>
+            <ul>
+              <li><a href="https://docs.docker.com/engine/installation/cloud/overview/">Choose how to install</a></li>
+              <li><a href="https://docs.docker.com/engine/installation/cloud/cloud-ex-aws/">Example: Manual install on cloud provider</a></li>
+              <li><a href="https://docs.docker.com/engine/installation/cloud/cloud-ex-machine-ocean/">Example: Use Docker Machine to provision cloud hosts</a></li>
+            </ul>
+            <li><a href="https://docs.docker.com/engine/installation/binaries/">Installation from binaries</a></li>
+          </ul>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/engine/getstarted/">Get Started with Docker</a></li>
+          <li><a href="https://docs.docker.com/engine/getstarted/step_one/">Install Docker and run hello-world</a></li>
+          <li><a href="https://docs.docker.com/engine/getstarted/step_two/">Understand images &amp; containers</a></li>
+          <li><a href="https://docs.docker.com/engine/getstarted/step_three/">Find &amp; run the whalesay image</a></li>
+          <li><a href="https://docs.docker.com/engine/getstarted/step_four/">Build your own image</a></li>
+          <li><a href="https://docs.docker.com/engine/getstarted/step_five/">Create a Docker Hub account &amp; repository</a></li>
+          <li><a href="https://docs.docker.com/engine/getstarted/step_six/">Tag, push, &amp; pull your image</a></li>
+          <li><a href="https://docs.docker.com/engine/getstarted/last_page/">Learning more</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/engine/tutorials/dockerizing/">Hello world in a container</a></li>
+          <li><a href="https://docs.docker.com/engine/tutorials/usingdocker/">Run a simple application</a></li>
+          <li><a href="https://docs.docker.com/engine/tutorials/dockerimages/">Build your own images</a></li>
+          <li><a href="https://docs.docker.com/engine/tutorials/networkingcontainers/">Network containers</a></li>
+          <li><a href="https://docs.docker.com/engine/tutorials/dockervolumes/">Manage data in containers</a></li>
+          <li><a href="https://docs.docker.com/engine/tutorials/dockerrepos/">Store images on Docker Hub</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/engine/userguide/intro/">Introduction</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/">Best practices for writing Dockerfiles</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/eng-image/baseimages/">Create a base image</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/eng-image/image_management/">Image management</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/">Understand images, containers, and storage drivers</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/storagedriver/selectadriver/">Select a storage driver</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/storagedriver/aufs-driver/">AUFS storage driver in practice</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/storagedriver/btrfs-driver/">Btrfs storage in practice</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/storagedriver/device-mapper-driver/">Device mapper storage in practice</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/storagedriver/overlayfs-driver/">OverlayFS storage in practice</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/storagedriver/zfs-driver/">ZFS storage in practice</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://docs.docker.com/engine/userguide/networking/">Docker container networking</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/networking/work-with-networks/">Work with network commands</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/networking/get-started-overlay/">Get started with multi-host networking</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/networking/overlay-security-model/">Swarm mode overlay network security model</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/networking/configure-dns/">Configure container DNS in user-defined networks</a></li>
+            <ul>
+              <li><a href="https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/">Legacy container links</a></li>
+              <li><a href="https://docs.docker.com/engine/userguide/networking/default_network/binding/">Bind container ports to the host</a></li>
+              <li><a href="https://docs.docker.com/engine/userguide/networking/default_network/build-bridges/">Build your own bridge</a></li>
+              <li><a href="https://docs.docker.com/engine/userguide/networking/default_network/configure-dns/">Configure container DNS</a></li>
+              <li><a href="https://docs.docker.com/engine/userguide/networking/default_network/custom-docker0/">Customize the docker0 bridge</a></li>
+              <li><a href="https://docs.docker.com/engine/userguide/networking/default_network/container-communication/">Understand container communication</a></li>
+              <li><a href="https://docs.docker.com/engine/userguide/networking/default_network/ipv6/">IPv6 with Docker</a></li>
+            </ul>
+          </ul>
+          <li><a href="https://docs.docker.com/engine/userguide/labels-custom-metadata/">Apply custom metadata</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/engine/admin/">Configuring and running Docker</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/host_integration/">Automatically start containers</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/live-restore/">Keep containers alive during daemon downtime</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/systemd/">Control and configure Docker with systemd</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/formatting/">Format command and log output</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/registry_mirror/">Run a local registry mirror</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/engine/admin/logging/overview/">Configuring Logging Drivers</a></li>
+            <li><a href="https://docs.docker.com/engine/admin/logging/log_tags/">Log tags for logging driver</a></li>
+            <li><a href="https://docs.docker.com/engine/admin/logging/awslogs/">Amazon CloudWatch Logs logging driver</a></li>
+            <li><a href="https://docs.docker.com/engine/admin/logging/etwlogs/">ETW logging driver</a></li>
+            <li><a href="https://docs.docker.com/engine/admin/logging/fluentd/">Fluentd logging driver</a></li>
+            <li><a href="https://docs.docker.com/engine/admin/logging/gcplogs/">Google Cloud Logging driver</a></li>
+            <li><a href="https://docs.docker.com/engine/admin/logging/journald/">Journald logging driver</a></li>
+            <li><a href="https://docs.docker.com/engine/admin/logging/splunk/">Splunk logging driver</a></li>
+          </ul>
+          <li><a href="https://docs.docker.com/engine/admin/dsc/">PowerShell DSC Usage</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/chef/">Using Chef</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/puppet/">Using Puppet</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/using_supervisord/">Using Supervisor with Docker</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/runmetrics/">Runtime metrics</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/ambassador_pattern_linking/">Link via an ambassador container</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/engine/swarm/">Swarm mode overview</a></li>
+          <li><a href="https://docs.docker.com/engine/swarm/key-concepts/">Swarm mode key concepts</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/engine/swarm/swarm-tutorial/">Set up for the tutorial</a></li>
+            <li><a href="https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/">Create a swarm</a></li>
+            <li><a href="https://docs.docker.com/engine/swarm/swarm-tutorial/add-nodes/">Add nodes to the swarm</a></li>
+            <li><a href="https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/">Deploy a service</a></li>
+            <li><a href="https://docs.docker.com/engine/swarm/swarm-tutorial/inspect-service/">Inspect the service</a></li>
+            <li><a href="https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/">Scale the service</a></li>
+            <li><a href="https://docs.docker.com/engine/swarm/swarm-tutorial/delete-service/">Delete the service</a></li>
+            <li><a href="https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/">Apply rolling updates</a></li>
+            <li><a href="https://docs.docker.com/engine/swarm/swarm-tutorial/drain-node/">Drain a node</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/">How nodes work</a></li>
+            <li><a href="https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/">How services work</a></li>
+          </ul>
+          <li><a href="https://docs.docker.com/engine/swarm/swarm-mode/">Run Docker Engine in swarm mode</a></li>
+          <li><a href="https://docs.docker.com/engine/swarm/join-nodes/">Join nodes to a swarm</a></li>
+          <li><a href="https://docs.docker.com/engine/swarm/manage-nodes/">Manage nodes in a swarm</a></li>
+          <li><a href="https://docs.docker.com/engine/swarm/services/">Deploy services to a swarm</a></li>
+          <li><a href="https://docs.docker.com/engine/swarm/networking/">Attach services to an overlay network</a></li>
+          <li><a href="https://docs.docker.com/engine/swarm/admin_guide/">Swarm administration guide</a></li>
+          <li><a href="https://docs.docker.com/engine/swarm/raft/">Raft consensus in swarm mode</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/engine/security/security/">Docker security</a></li>
+          <li><a href="https://docs.docker.com/engine/security/non-events/">Docker Security Non-events</a></li>
+          <li><a href="https://docs.docker.com/engine/security/https/">Protect the Docker daemon socket</a></li>
+          <li><a href="https://docs.docker.com/engine/security/certificates/">Using certificates for repository client verification</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/engine/security/trust/content_trust/">Content trust in Docker</a></li>
+            <li><a href="https://docs.docker.com/engine/security/trust/trust_automation/">Automation with content trust</a></li>
+            <li><a href="https://docs.docker.com/engine/security/trust/trust_delegation/">Delegations for content trust</a></li>
+            <li><a href="https://docs.docker.com/engine/security/trust/deploying_notary/">Deploying Notary</a></li>
+            <li><a href="https://docs.docker.com/engine/security/trust/trust_key_mng/">Manage keys for content trust</a></li>
+            <li><a href="https://docs.docker.com/engine/security/trust/trust_sandbox/">Play in a content trust sandbox</a></li>
+          </ul>
+          <li><a href="https://docs.docker.com/engine/security/apparmor/">AppArmor security profiles for Docker</a></li>
+          <li><a href="https://docs.docker.com/engine/security/seccomp/">Seccomp security profiles for Docker</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/engine/extend/plugins_authorization/">Access authorization plugin</a></li>
+          <li><a href="https://docs.docker.com/engine/extend/plugins/">Extending Engine with plugins</a></li>
+          <li><a href="https://docs.docker.com/engine/extend/plugins_network/">Docker network driver plugins</a></li>
+          <li><a href="https://docs.docker.com/engine/extend/plugins_volume/">Volume plugins</a></li>
+          <li><a href="https://docs.docker.com/engine/extend/plugin_api/">Plugins API</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/engine/examples/mongodb/">Dockerizing MongoDB</a></li>
+          <li><a href="https://docs.docker.com/engine/examples/postgresql_service/">Dockerizing PostgreSQL</a></li>
+          <li><a href="https://docs.docker.com/engine/examples/couchdb_data_volumes/">Dockerizing a CouchDB service</a></li>
+          <li><a href="https://docs.docker.com/engine/examples/couchbase/">Dockerizing a Couchbase service</a></li>
+          <li><a href="https://docs.docker.com/engine/examples/running_redis_service/">Dockerizing a Redis service</a></li>
+          <li><a href="https://docs.docker.com/engine/examples/running_riak_service/">Dockerizing a Riak service</a></li>
+          <li><a href="https://docs.docker.com/engine/examples/running_ssh_service/">Dockerizing an SSH service</a></li>
+          <li><a href="https://docs.docker.com/engine/examples/apt-cacher-ng/">Dockerizing an apt-cacher-ng service</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/engine/reference/builder/">Dockerfile reference</a></li>
+          <li><a href="https://docs.docker.com/engine/reference/run/">Docker run reference</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/">Docker commands</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/cli/">Use the Docker command line</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/dockerd/">dockerd</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/attach/">attach</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/build/">build</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/commit/">commit</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/cp/">cp</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/create/">create</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/deploy/">deploy</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/diff/">diff</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/events/">events</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/exec/">exec</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/export/">export</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/history/">history</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/images/">images</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/import/">import</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/info/">info</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/inspect/">inspect</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/kill/">kill</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/load/">load</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/login/">login</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/logout/">logout</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/logs/">logs</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/network_connect/">network connect</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/network_create/">network create</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/network_disconnect/">network disconnect</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/network_inspect/">network inspect</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/network_ls/">network ls</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/network_rm/">network rm</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/node_demote/">node demote</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/node_inspect/">node inspect</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/node_ls/">node ls</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/node_promote/">node promote</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/node_ps/">node ps</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/node_rm/">node rm</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/node_update/">node update</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/pause/">pause</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/plugin_disable/">plugin disable</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/plugin_enable/">plugin enable</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/plugin_inspect/">plugin inspect</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/plugin_install/">plugin install</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/plugin_ls/">plugin ls</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/plugin_rm/">plugin rm</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/port/">port</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/ps/">ps</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/pull/">pull</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/push/">push</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/rename/">rename</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/restart/">restart</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/rm/">rm</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/rmi/">rmi</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/run/">run</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/save/">save</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/search/">search</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/service_create/">service create</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/service_inspect/">service inspect</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/service_ls/">service ls</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/service_ps/">service ps</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/service_rm/">service rm</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/service_scale/">service scale</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/service_update/">service update</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/stack_config/">stack config</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/stack_deploy/">stack deploy</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/stack_rm/">stack rm</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/stack_services/">stack services</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/stack_tasks/">stack tasks</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/start/">start</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/stats/">stats</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/stop/">stop</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/swarm_init/">swarm init</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/swarm_join/">swarm join</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/swarm_join_token/">swarm join-token</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/swarm_leave/">swarm leave</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/swarm_update/">swarm update</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/tag/">tag</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/top/">top</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/unpause/">unpause</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/update/">update</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/version/">version</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/volume_create/">volume create</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/volume_inspect/">volume inspect</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/volume_ls/">volume ls</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/volume_rm/">volume rm</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/commandline/wait/">wait</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://docs.docker.com/engine/reference/api/docker_remote_api/">Remote API</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/api/docker_remote_api_v1.24/">Remote API v1.24</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/api/docker_remote_api_v1.23/">Remote API v1.23</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/api/docker_remote_api_v1.22/">Remote API v1.22</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/api/docker_remote_api_v1.21/">Remote API v1.21</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/api/docker_remote_api_v1.20/">Remote API v1.20</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/api/docker_remote_api_v1.19/">Remote API v1.19</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/api/docker_remote_api_v1.18/">Remote API v1.18</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/api/remote_api_client_libraries/">Remote API client libraries</a></li>
+            <li><a href="https://docs.docker.com/engine/reference/api/docker_io_accounts_api/">docker.io accounts API</a></li>
+          </ul>
+        </ul>
+        <li><a href="https://docs.docker.com/engine/migration/">Migrate to Engine 1.10</a></li>
+        <li><a href="https://docs.docker.com/engine/breaking_changes/">Breaking changes</a></li>
+        <li><a href="https://docs.docker.com/engine/deprecated/">Deprecated Engine Features</a></li>
+        <li><a href="https://docs.docker.com/engine/faq/">FAQ</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/docker-for-mac/">Getting Started</a></li>
+        <li><a href="https://docs.docker.com/docker-for-mac/docker-toolbox/">Docker for Mac vs. Docker Toolbox</a></li>
+        <li><a href="https://docs.docker.com/docker-for-mac/multi-arch/">Leveraging Multi-CPU Architecture Support</a></li>
+        <li><a href="https://docs.docker.com/docker-for-mac/networking/">Networking</a></li>
+        <li><a href="https://docs.docker.com/docker-for-mac/osxfs/">File system sharing</a></li>
+        <li><a href="https://docs.docker.com/docker-for-mac/troubleshoot/">Logs and Troubleshooting</a></li>
+        <li><a href="https://docs.docker.com/docker-for-mac/faqs/">FAQs</a></li>
+        <li><a href="https://docs.docker.com/docker-for-mac/examples/">Example Applications</a></li>
+        <li><a href="https://docs.docker.com/docker-for-mac/opensource/">Open Source Licensing</a></li>
+        <li><a href="https://docs.docker.com/docker-for-mac/release-notes/">Release Notes</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/docker-for-windows/">Getting Started</a></li>
+        <li><a href="https://docs.docker.com/docker-for-windows/troubleshoot/">Logs and Troubleshooting</a></li>
+        <li><a href="https://docs.docker.com/docker-for-windows/faqs/">FAQs</a></li>
+        <li><a href="https://docs.docker.com/docker-for-windows/examples/">Example Applications</a></li>
+        <li><a href="https://docs.docker.com/docker-for-windows/opensource/">Open Source Licensing</a></li>
+        <li><a href="https://docs.docker.com/docker-for-windows/release-notes/">Release Notes</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/compose/overview/">Overview of Docker Compose</a></li>
+        <li><a href="https://docs.docker.com/compose/install/">Install Compose</a></li>
+        <li><a href="https://docs.docker.com/compose/gettingstarted/">Getting Started</a></li>
+        <li><a href="https://docs.docker.com/compose/bundles/">Docker Stacks and Distributed Application Bundles</a></li>
+        <li><a href="https://docs.docker.com/compose/swarm/">Using Compose with Swarm</a></li>
+        <li><a href="https://docs.docker.com/compose/django/">Quickstart: Compose and Django</a></li>
+        <li><a href="https://docs.docker.com/compose/rails/">Quickstart: Compose and Rails</a></li>
+        <li><a href="https://docs.docker.com/compose/wordpress/">Quickstart: Compose and WordPress</a></li>
+        <li><a href="https://docs.docker.com/compose/env-file/">Environment file</a></li>
+        <li><a href="https://docs.docker.com/compose/environment-variables/">Environment variables in Compose</a></li>
+        <li><a href="https://docs.docker.com/compose/extends/">Extending Services in Compose</a></li>
+        <li><a href="https://docs.docker.com/compose/networking/">Networking in Compose</a></li>
+        <li><a href="https://docs.docker.com/compose/production/">Using Compose in Production</a></li>
+        <li><a href="https://docs.docker.com/compose/compose-file/">Compose File Reference</a></li>
+        <ul>
+          <li><a href="https://docs.docker.com/compose/reference/overview/">Overview of docker-compose CLI</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/envvars/">CLI Environment Variables</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/build/">build</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/bundle/">bundle</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/config/">config</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/create/">create</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/down/">down</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/events/">events</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/exec/">exec</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/help/">help</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/kill/">kill</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/logs/">logs</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/pause/">pause</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/port/">port</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/ps/">ps</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/pull/">pull</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/push/">push</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/restart/">restart</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/rm/">rm</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/run/">run</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/scale/">scale</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/start/">start</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/stop/">stop</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/unpause/">unpause</a></li>
+          <li><a href="https://docs.docker.com/compose/reference/up/">up</a></li>
+        </ul>
+        <li><a href="https://docs.docker.com/compose/completion/">Command-line Completion</a></li>
+        <li><a href="https://docs.docker.com/compose/link-env-deprecated/">Link Environment Variables</a></li>
+        <li><a href="https://docs.docker.com/compose/startup-order/">Controlling startup order</a></li>
+        <li><a href="https://docs.docker.com/compose/faq/">Frequently Asked Questions</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/cs-engine/install/">Install CS Docker Engine</a></li>
+        <li><a href="https://docs.docker.com/cs-engine/upgrade/">Upgrade</a></li>
+        <ul>
+          <li><a href="https://docs.docker.com/cs-engine/release-notes/release-notes/">CS Engine release notes</a></li>
+          <li><a href="https://docs.docker.com/cs-engine/release-notes/prior-release-notes/">Prior CS Engine release notes</a></li>
+        </ul>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/ucp/overview/">Universal Control Plane overview</a></li>
+        <li><a href="https://docs.docker.com/ucp/install-sandbox/">Evaluate UCP in a sandbox</a></li>
+        <li><a href="https://docs.docker.com/ucp/architecture/">Architecture</a></li>
+        <ul>
+          <li><a href="https://docs.docker.com/ucp/installation/system-requirements/">System requirements</a></li>
+          <li><a href="https://docs.docker.com/ucp/installation/plan-production-install/">Plan a production installation</a></li>
+          <li><a href="https://docs.docker.com/ucp/installation/install-production/">Install UCP for production</a></li>
+          <li><a href="https://docs.docker.com/ucp/installation/install-offline/">Install offline</a></li>
+          <li><a href="https://docs.docker.com/ucp/installation/license/">License UCP</a></li>
+          <li><a href="https://docs.docker.com/ucp/installation/upgrade/">Upgrade UCP</a></li>
+          <li><a href="https://docs.docker.com/ucp/installation/uninstall/">Uninstall UCP</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/ucp/reference/backup/">backup</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/dump-certs/">dump-certs</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/engine-discovery/">engine-discovery</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/fingerprint/">fingerprint</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/help/">help</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/id/">id</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/images/">images</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/install/">install</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/join/">join</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/regen-certs/">regen-certs.md</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/restart/">restart</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/restore/">restore</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/stop/">stop</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/support/">support</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/uninstall/">uninstall</a></li>
+            <li><a href="https://docs.docker.com/ucp/reference/upgrade/">upgrade</a></li>
+          </ul>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/ucp/access-ucp/web-based-access/">Web-based access</a></li>
+          <li><a href="https://docs.docker.com/ucp/access-ucp/cli-based-access/">CLI-based access</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/ucp/configuration/use-externally-signed-certs/">Use externally-signed certificates</a></li>
+          <li><a href="https://docs.docker.com/ucp/configuration/configure-logs/">Configure UCP logging</a></li>
+          <li><a href="https://docs.docker.com/ucp/configuration/dtr-integration/">Integrate with Docker Trusted Registry</a></li>
+          <li><a href="https://docs.docker.com/ucp/configuration/ldap-integration/">Integrate with LDAP</a></li>
+          <li><a href="https://docs.docker.com/ucp/configuration/multi-host-networking/">Set up container networking</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/ucp/monitor/monitor-ucp/">Monitor your cluster</a></li>
+          <li><a href="https://docs.docker.com/ucp/monitor/troubleshoot-ucp/">Troubleshoot your cluster</a></li>
+          <li><a href="https://docs.docker.com/ucp/monitor/troubleshoot-configurations/">Troubleshoot cluster configurations</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/ucp/high-availability/set-up-high-availability/">Set up high availability</a></li>
+          <li><a href="https://docs.docker.com/ucp/high-availability/replicate-cas/">Replicate CAs for high availability</a></li>
+          <li><a href="https://docs.docker.com/ucp/high-availability/backups-and-disaster-recovery/">Backups and disaster recovery</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/ucp/user-management/authentication-and-authorization/">Authentication and authorization</a></li>
+          <li><a href="https://docs.docker.com/ucp/user-management/create-and-manage-users/">Create and manage users</a></li>
+          <li><a href="https://docs.docker.com/ucp/user-management/create-and-manage-teams/">Create and manage teams</a></li>
+          <li><a href="https://docs.docker.com/ucp/user-management/permission-levels/">Permission levels</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/ucp/applications/deploy-app-ui/">Deploy an app from the UI</a></li>
+          <li><a href="https://docs.docker.com/ucp/applications/deploy-app-cli/">Deploy an app from the CLI</a></li>
+        </ul>
+        <li><a href="https://docs.docker.com/ucp/support/">Get support</a></li>
+        <li><a href="https://docs.docker.com/ucp/release_notes/">Release Notes</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/docker-trusted-registry/">Docker Trusted Registry overview</a></li>
+        <li><a href="https://docs.docker.com/docker-trusted-registry/architecture/">Architecture</a></li>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/install/system-requirements/">System requirements</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/install/">Install Docker Trusted Registry</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/install/install-dtr-offline/">Install offline</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/install/license/">License DTR</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/install/upgrade/upgrade-major/">Upgrade from 1.4.3</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/install/upgrade/">Upgrade from 2.0.0</a></li>
+          </ul>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/install/uninstall/">Uninstall</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/">Overview</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/backup/">backup</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/dumpcerts/">dumpcerts</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/install/">install</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/join/">join</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/migrate/">migrate</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/reconfigure/">reconfigure</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/remove/">remove</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/restore/">restore</a></li>
+          </ul>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/configure/configuration/">Configuration overview</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/configure/config-general/">Configure general settings</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/configure/config-security/">Security configuration</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/configure/config-storage/">Storage configuration</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/monitor-troubleshoot/">Monitor DTR</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/monitor-troubleshoot/troubleshoot/">Troubleshoot DTR</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/high-availability/">Set up high availability</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/high-availability/backups-and-disaster-recovery/">Backups and disaster recovery</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/user-management/">Authentication and authorization</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-users/">Create and manage users</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-orgs/">Create and manage organizations</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-teams/">Create and manage teams</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/user-management/permission-levels/">Permission levels</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/repos-and-images/">Configure your Docker Engine</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/repos-and-images/pull-an-image/">Pull an image</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/repos-and-images/push-an-image/">Push an image</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/repos-and-images/delete-an-image/">Delete an image</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/apidocs/overview/">Overview</a></li>
+          <li><a href="https://docs.docker.com/apidocs/v1.3.3/">v1.3.3 API</a></li>
+          <li><a href="https://docs.docker.com/apidocs/v1.4.0/">v1.4.0 API</a></li>
+          <li><a href="https://docs.docker.com/apidocs/v2.0.0/">v2.0.0 API</a></li>
+          <li><a href="https://docs.docker.com/apidocs/v2.0.1/">v2.0.1 API</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/release-notes/">Trusted Registry release notes</a></li>
+          <li><a href="https://docs.docker.com/docker-trusted-registry/release-notes/prior-release-notes/">Prior Trusted Registry release notes</a></li>
+        </ul>
+        <li><a href="https://docs.docker.com/docker-trusted-registry/support/">Get support</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/docker-cloud/overview/">Docker Cloud Overview</a></li>
+        <li><a href="https://docs.docker.com/docker-cloud/dockerid/">Docker ID and Settings</a></li>
+        <li><a href="https://docs.docker.com/docker-cloud/orgs/">Organizations and Teams</a></li>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-cloud/getting-started/intro_cloud/">Introducing Docker Cloud</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/getting-started/connect-infra/">Link to your Infrastructure</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/getting-started/your_first_node/">Deploy your first node</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/getting-started/your_first_service/">Deploy your first service</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/1_introduction/">Introduction to Deploying an app in Docker Cloud</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/2_set_up/">Set up your environment</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/3_prepare_the_app/">Prepare the application</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/4_push_to_cloud_registry/">Push the image to Docker Cloud's Registry</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/5_deploy_the_app_as_a_service/">Deploy the app as a Docker Cloud service</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/6_define_environment_variables/">Define environment variables</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/7_scale_the_service/">Scale the service</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/8_view_logs/">View service logs</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/9_load-balance_the_service/">Load-balance the service</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/10_provision_a_data_backend_for_your_service/">Provision a data backend for the service</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/11_service_stacks/">Stackfiles for your service</a></li>
+            <li><a href="https://docs.docker.com/docker-cloud/getting-started/deploy-app/12_data_management_with_volumes/">Data management with Volumes</a></li>
+          </ul>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/deploy-to-cloud-btn/">Add a Deploy to Docker Cloud button</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/auto-destroy/">Automatic container destroy</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/autorestart/">Automatic container restart</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/auto-redeploy/">Automatic service redeploy</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/load-balance-hello-world/">Create a proxy or load balancer</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/deploy-tags/">Deployment tags</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/stacks/">Manage service stacks</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/ports/">Publish and expose service or container ports</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/service-redeploy/">Redeploy running services</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/service-scaling/">Scale your service</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/api-roles/">Service API Roles</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/service-links/">Service discovery and links</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/stack-yaml-reference/">Stack YAML reference</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/triggers/">Use triggers</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/apps/volumes/">Work with data volumes</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-cloud/builds/">Builds and Images Overview</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/builds/repos/">Docker Cloud repositories</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/builds/link-source/">Link to a source code repository</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/builds/push-images/">Push images to Docker Cloud</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/builds/image-scan/">Docker Security Scanning</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/builds/automated-build/">Automated builds</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/builds/automated-testing/">Automated repository tests</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/builds/advanced/">Advanced options for Autobuild and Autotest</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/">Infrastructure Overview</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/deployment-strategies/">Container distribution strategies</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/link-aws/">Link to Amazon Web Services hosts</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/link-do/">Link to DigitalOcean hosts</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/link-azure/">Link to Microsoft Azure hosts</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/link-packet/">Link to Packet hosts</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/link-softlayer/">Link to SoftLayer hosts</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/ssh-into-a-node/">SSH into a Docker Cloud-managed node</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/docker-upgrade/">Upgrade Docker Engine on a node</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/byoh/">Use the Docker Cloud Agent</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/cloud-on-packet.net-faq/">Using Docker Cloud and Packet.net</a></li>
+          <li><a href="https://docs.docker.com/docker-cloud/infrastructure/cloud-on-aws-faq/">Using Docker Cloud on AWS</a></li>
+        </ul>
+        <li><a href="https://docs.docker.com/docker-cloud/slack-integration/">Docker Cloud notifications in Slack</a></li>
+        <li><a href="https://docs.docker.com/docker-cloud/installing-cli/">The Docker Cloud CLI</a></li>
+        <li><a href="https://docs.docker.com/docker-cloud/docker-errors-faq/">Known Issues in Docker Cloud</a></li>
+        <li><a href="https://docs.docker.com/apidocs/docker-cloud/">API reference</a></li>
+        <li><a href="https://docs.docker.com/docker-cloud/release-notes/">Release Notes</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/docker-hub/">Overview of Docker Hub</a></li>
+        <li><a href="https://docs.docker.com/docker-hub/accounts/">Your Docker ID</a></li>
+        <li><a href="https://docs.docker.com/docker-hub/orgs/">Teams &amp; Organizations</a></li>
+        <li><a href="https://docs.docker.com/docker-hub/repos/">Repositories on Docker Hub</a></li>
+        <li><a href="https://docs.docker.com/docker-hub/builds/">Automated Builds</a></li>
+        <li><a href="https://docs.docker.com/docker-hub/webhooks/">Webhooks for automated builds</a></li>
+        <li><a href="https://docs.docker.com/docker-hub/bitbucket/">Automated Builds with Bitbucket</a></li>
+        <li><a href="https://docs.docker.com/docker-hub/github/">Automated Builds from GitHub</a></li>
+        <li><a href="https://docs.docker.com/docker-hub/official_repos/">Official Repositories on Docker Hub</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/machine/overview/">Machine Overview</a></li>
+        <li><a href="https://docs.docker.com/machine/install-machine/">Install Machine</a></li>
+        <li><a href="https://docs.docker.com/machine/get-started/">Get started with a local VM</a></li>
+        <li><a href="https://docs.docker.com/machine/get-started-cloud/">Provision hosts in the cloud</a></li>
+        <ul>
+          <li><a href="https://docs.docker.com/machine/examples/ocean/">Provision Digital Ocean Droplets</a></li>
+          <li><a href="https://docs.docker.com/machine/examples/aws/">Provision AWS EC2 Instances</a></li>
+        </ul>
+        <li><a href="https://docs.docker.com/machine/concepts/">Machine concepts and help</a></li>
+        <li><a href="https://docs.docker.com/machine/migrate-to-machine/">Migrate from Boot2Docker to Machine</a></li>
+        <ul>
+          <li><a href="https://docs.docker.com/machine/reference/active/">active</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/config/">config</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/create/">create</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/env/">env</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/help/">help</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/inspect/">inspect</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/ip/">ip</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/kill/">kill</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/ls/">ls</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/provision/">provision</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/regenerate-certs/">regenerate-certs</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/restart/">restart</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/rm/">rm</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/scp/">scp</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/ssh/">ssh</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/start/">start</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/status/">status</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/stop/">stop</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/upgrade/">upgrade</a></li>
+          <li><a href="https://docs.docker.com/machine/reference/url/">url</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/machine/drivers/os-base/">Driver options and operating system defaults</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/aws/">Amazon Web Services</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/digital-ocean/">Digital Ocean</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/generic/">Generic</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/gce/">Google Compute Engine</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/soft-layer/">IBM Softlayer</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/azure/">Microsoft Azure</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/hyper-v/">Microsoft Hyper-V</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/openstack/">OpenStack</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/virtualbox/">Oracle VirtualBox</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/rackspace/">Rackspace</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/vm-fusion/">VMware Fusion</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/vm-cloud/">VMware vCloud Air</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/vsphere/">VMware vSphere</a></li>
+          <li><a href="https://docs.docker.com/machine/drivers/exoscale/">exoscale</a></li>
+        </ul>
+        <li><a href="https://docs.docker.com/machine/completion/">Command-line Completion</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/docker-store/">Docker Store Overview</a></li>
+        <li><a href="https://docs.docker.com/docker-store/faq/">Docker Store FAQs</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/toolbox/overview/">Toolbox Overview</a></li>
+        <li><a href="https://docs.docker.com/toolbox/toolbox_install_mac/">Install Toolbox on Mac</a></li>
+        <li><a href="https://docs.docker.com/toolbox/toolbox_install_windows/">Install Toolbox on Windows</a></li>
+        <ul>
+          <li><a href="https://docs.docker.com/kitematic/userguide/">Kitematic User Guide: Intro &amp; Overview</a></li>
+          <li><a href="https://docs.docker.com/kitematic/nginx-web-server/">Set up an Nginx web server</a></li>
+          <li><a href="https://docs.docker.com/kitematic/minecraft-server/">Set up a Minecraft Server</a></li>
+          <li><a href="https://docs.docker.com/kitematic/rethinkdb-dev-database/">Creating a Local RethinkDB Database for Development</a></li>
+          <li><a href="https://docs.docker.com/kitematic/faq/">Frequently Asked Questions</a></li>
+          <li><a href="https://docs.docker.com/kitematic/known-issues/">Known Issues</a></li>
+        </ul>
+        <li><a href="https://docs.docker.com/toolbox/faqs/troubleshoot/">Troubleshooting</a></li>
+      </ul>
+      <ul>
+        <ul>
+          <li><a href="https://docs.docker.com/swarm/overview/">Swarm Overview</a></li>
+          <li><a href="https://docs.docker.com/swarm/get-swarm/">How to get Swarm</a></li>
+          <li><a href="https://docs.docker.com/swarm/install-w-machine/">Evaluate Swarm in a sandbox</a></li>
+          <li><a href="https://docs.docker.com/swarm/plan-for-production/">Plan for Swarm in production</a></li>
+          <li><a href="https://docs.docker.com/swarm/install-manual/">Build a Swarm cluster for production</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/swarm/swarm_at_scale/about/">Learn the application architecture</a></li>
+            <li><a href="https://docs.docker.com/swarm/swarm_at_scale/deploy-infra/">Deploy application infrastructure</a></li>
+            <li><a href="https://docs.docker.com/swarm/swarm_at_scale/deploy-app/">Deploy the application</a></li>
+            <li><a href="https://docs.docker.com/swarm/swarm_at_scale/troubleshoot/">Troubleshoot the application</a></li>
+          </ul>
+          <li><a href="https://docs.docker.com/swarm/multi-manager-setup/">High availability in Swarm</a></li>
+          <li><a href="https://docs.docker.com/swarm/networking/">Swarm and container networks</a></li>
+          <li><a href="https://docs.docker.com/swarm/discovery/">Discovery</a></li>
+          <li><a href="https://docs.docker.com/swarm/provision-with-machine/">Provision with Machine</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/swarm/scheduler/filter/">Filters</a></li>
+            <li><a href="https://docs.docker.com/swarm/scheduler/rescheduling/">Rescheduling</a></li>
+            <li><a href="https://docs.docker.com/swarm/scheduler/strategy/">Strategies</a></li>
+          </ul>
+          <li><a href="https://docs.docker.com/swarm/secure-swarm-tls/">Overview Docker Swarm with TLS</a></li>
+          <li><a href="https://docs.docker.com/swarm/configure-tls/">Configure Docker Swarm for TLS</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/swarm/reference/create/">create</a></li>
+            <li><a href="https://docs.docker.com/swarm/reference/help/">help</a></li>
+            <li><a href="https://docs.docker.com/swarm/reference/join/">join</a></li>
+            <li><a href="https://docs.docker.com/swarm/reference/list/">list</a></li>
+            <li><a href="https://docs.docker.com/swarm/reference/manage/">manage</a></li>
+            <li><a href="https://docs.docker.com/swarm/reference/swarm/">swarm</a></li>
+          </ul>
+          <li><a href="https://docs.docker.com/swarm/status-code-comparison-to-docker/">API response codes</a></li>
+          <li><a href="https://docs.docker.com/swarm/swarm-api/">Docker Swarm API</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/registry/">Registry Overview</a></li>
+          <li><a href="https://docs.docker.com/registry/introduction/">Understanding the Registry</a></li>
+          <li><a href="https://docs.docker.com/registry/deploying/">Deploying a registry server</a></li>
+          <li><a href="https://docs.docker.com/registry/configuration/">Configuring a registry</a></li>
+          <li><a href="https://docs.docker.com/registry/notifications/">Working with notifications</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/registry/recipes/">Recipes Overview</a></li>
+            <li><a href="https://docs.docker.com/registry/recipes/apache/">Authenticating proxy with apache</a></li>
+            <li><a href="https://docs.docker.com/registry/recipes/nginx/">Authenticating proxy with nginx</a></li>
+            <li><a href="https://docs.docker.com/registry/recipes/mirror/">Mirroring Docker Hub</a></li>
+            <li><a href="https://docs.docker.com/registry/recipes/osx-setup-guide/">Running on OS X</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://docs.docker.com/registry/spec/">Reference Overview</a></li>
+            <li><a href="https://docs.docker.com/registry/spec/api/">HTTP API V2</a></li>
+            <li><a href="https://docs.docker.com/registry/spec/manifest-v2-1/">Image Manifest V 2, Schema 1</a></li>
+            <li><a href="https://docs.docker.com/registry/spec/manifest-v2-2/">Image Manifest V 2, Schema 2</a></li>
+            <li><a href="https://docs.docker.com/registry/garbage-collection/">Garbage Collection</a></li>
+            <li><a href="https://docs.docker.com/registry/insecure/">Testing an insecure registry</a></li>
+            <li><a href="https://docs.docker.com/registry/deprecated/">Deprecated Features</a></li>
+            <li><a href="https://docs.docker.com/registry/compatibility/">Compatibility</a></li>
+            <li><a href="https://docs.docker.com/registry/spec/auth/">Docker Registry Token Authentication</a></li>
+            <li><a href="https://docs.docker.com/registry/spec/auth/jwt/">Token Authentication Implementation</a></li>
+            <li><a href="https://docs.docker.com/registry/spec/auth/oauth/">Oauth2 Token Authentication</a></li>
+            <li><a href="https://docs.docker.com/registry/spec/auth/scope/">Token Scope Documentation</a></li>
+            <li><a href="https://docs.docker.com/registry/spec/auth/token/">Token Authentication Specification</a></li>
+            <ul>
+              <li><a href="https://docs.docker.com/registry/storage-drivers/">Storage Driver overview</a></li>
+              <li><a href="https://docs.docker.com/registry/storage-drivers/oss/">Aliyun OSS storage driver</a></li>
+              <li><a href="https://docs.docker.com/registry/storage-drivers/filesystem/">Filesystem storage driver</a></li>
+              <li><a href="https://docs.docker.com/registry/storage-drivers/gcs/">GCS storage driver</a></li>
+              <li><a href="https://docs.docker.com/registry/storage-drivers/inmemory/">In-memory storage driver</a></li>
+              <li><a href="https://docs.docker.com/registry/storage-drivers/azure/">Microsoft Azure storage driver</a></li>
+              <li><a href="https://docs.docker.com/registry/storage-drivers/s3/">S3 storage driver</a></li>
+              <li><a href="https://docs.docker.com/registry/storage-drivers/swift/">Swift storage driver</a></li>
+            </ul>
+          </ul>
+          <li><a href="https://docs.docker.com/registry/help/">Getting help</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://docs.docker.com/notary/getting_started/">Getting started with Notary</a></li>
+          <li><a href="https://docs.docker.com/notary/advanced_usage/">Use the Notary client</a></li>
+          <li><a href="https://docs.docker.com/notary/service_architecture/">Understand the service architecture</a></li>
+          <li><a href="https://docs.docker.com/notary/running_a_service/">Running a Notary service</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/notary/reference/server-config/">Server Configuration</a></li>
+            <li><a href="https://docs.docker.com/notary/reference/signer-config/">Signer Configuration</a></li>
+            <li><a href="https://docs.docker.com/notary/reference/client-config/">Client Configuration</a></li>
+            <li><a href="https://docs.docker.com/notary/reference/common-configs/">Common Server and Signer Configurations</a></li>
+          </ul>
+          <li><a href="https://docs.docker.com/notary/changelog/">Notary Changelog</a></li>
+        </ul>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/opensource/code/">Quickstart contribution</a></li>
+        <ul>
+          <li><a href="https://docs.docker.com/opensource/project/who-written-for/">README first</a></li>
+          <li><a href="https://docs.docker.com/opensource/project/software-required/">Get the required software</a></li>
+          <li><a href="https://docs.docker.com/opensource/project/software-req-win/">Set up for development on Windows</a></li>
+          <li><a href="https://docs.docker.com/opensource/project/set-up-git/">Configure Git for contributing</a></li>
+          <li><a href="https://docs.docker.com/opensource/project/set-up-dev-env/">Work with a development container</a></li>
+          <li><a href="https://docs.docker.com/opensource/project/test-and-docs/">Run tests and test documentation</a></li>
+          <ul>
+            <li><a href="https://docs.docker.com/opensource/workflow/make-a-contribution/">Understand how to contribute</a></li>
+            <li><a href="https://docs.docker.com/opensource/workflow/find-an-issue/">Find and claim an issue</a></li>
+            <li><a href="https://docs.docker.com/opensource/workflow/work-issue/">Work on your issue</a></li>
+            <li><a href="https://docs.docker.com/opensource/workflow/create-pr/">Create a pull request (PR)</a></li>
+            <li><a href="https://docs.docker.com/opensource/workflow/review-pr/">Participate in the PR review</a></li>
+            <li><a href="https://docs.docker.com/opensource/workflow/advanced-contributing/">Advanced contributing</a></li>
+            <li><a href="https://docs.docker.com/opensource/workflow/coding-style/">Coding style checklist</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://docs.docker.com/opensource/ways/meetups/">Organize a Docker Meetup</a></li>
+            <li><a href="https://docs.docker.com/opensource/ways/issues/">Organize our issues</a></li>
+            <li><a href="https://docs.docker.com/opensource/ways/community/">Support the community</a></li>
+            <li><a href="https://docs.docker.com/opensource/ways/test/">Testing contributions</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://docs.docker.com/opensource/kitematic/get_started/">Get started</a></li>
+            <li><a href="https://docs.docker.com/opensource/kitematic/find_issue/">Find an issue</a></li>
+            <li><a href="https://docs.docker.com/opensource/kitematic/set_up_dev/">Set up for Kitematic development</a></li>
+            <li><a href="https://docs.docker.com/opensource/kitematic/work_issue/">Develop in Kitematic (work on an issue)</a></li>
+            <li><a href="https://docs.docker.com/opensource/kitematic/create_pr/">Create a pull request (PR)</a></li>
+            <li><a href="https://docs.docker.com/opensource/kitematic/next_steps/">Where to learn more</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://docs.docker.com/opensource/governance/dgab-info/">Docker Governance Advisory Board</a></li>
+            <li><a href="https://docs.docker.com/opensource/governance/board-profiles/">Board member profiles</a></li>
+            <li><a href="https://docs.docker.com/opensource/governance/conduct-code/">Code of conduct</a></li>
+          </ul>
+        </ul>
+        <li><a href="https://docs.docker.com/opensource/FAQ/">FAQ for contributors</a></li>
+        <li><a href="https://docs.docker.com/opensource/get-help/">Where to chat or get help</a></li>
+        <li><a href="https://docs.docker.com/opensource/doc-style/">Style guide for Docker documentation</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://docs.docker.com/release-notes/">Docker Release Notes</a></li>
+        <li><a href="https://docs.docker.com/engine/reference/glossary/">Docker Glossary</a></li>
+      </ul>
+      <li><a href="https://docs.docker.com/docsarchive/">Docs archive</a></li>
+    </ul>
+  </body>
+</html>

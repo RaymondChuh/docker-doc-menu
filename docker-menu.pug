@@ -1,0 +1,21 @@
+mixin printMenu(menu)
+  - var menuKeys = Object.keys(menu);
+  ul
+    each mk in menuKeys
+      - var hasSubMenu = typeof menu[mk].content !== 'string'
+      if hasSubMenu
+        +printMenu(menu[mk].content)
+      else
+        li
+          a(href=menu[mk].url) #{menu[mk].content}
+
+
+doctype html
+html(lang="en")
+  head
+    title.
+      Docker Menu
+  body
+    h1.
+      Docker menu
+    +printMenu(menu)
