@@ -2,11 +2,10 @@ var staticServer = require('node-static');
 
 var server = new staticServer.Server('./');
 var path = require('path');
-console.log(path.resolve('./'));
-console.log(__dirname);
+const PORT = process.env.PORT || 5000;
+console.log(`Listening to port ${PORT}`);
 require('http').createServer(function(req, resp) {
   req.addListener('end', function() {
     server.serve(req, resp);
-
-  })
-}).listen(process.env.PORT || 5000);
+  }).resume();
+}).listen(PORT);
