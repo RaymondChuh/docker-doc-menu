@@ -23,6 +23,7 @@
     "docker_host": "docs.docker.com",
     "home_page_name": "docker-doc-home.html",
     "menu_template": "docker-menu.pug",
-    "menu_file": "index.html"
+    "menu_file": "index.html",
+    "dist": "dist"
   }
 }

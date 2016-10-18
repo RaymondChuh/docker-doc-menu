@@ -19,6 +19,10 @@ const MENU_FILE = config
 const DOCKER_DOC_URL = config
   ? 'https://' + config.docker_doc_menu.docker_host
   : 'https://docs.docker.com';
+const DIST = config
+  ? config.docker_doc_menu.dist
+  : 'dist';
+const OUTPUT_FILE = DIST + '/' + MENU_FILE;
 
 const binPath = phantomjs.path
 const childArgs = [
@@ -28,10 +32,10 @@ const childArgs = [
 const compileFn = pug.compileFile(MENU_TEMPLATE, {pretty: true});
 
 console.log(`check if ${HOME_PAGE_NAME} exists: ${fs.existsSync(HOME_PAGE_NAME)}`);
-console.log(`check if ${MENU_FILE} exists: ${fs.existsSync(MENU_FILE)}`);
+console.log(`check if ${OUTPUT_FILE} exists: ${fs.existsSync(OUTPUT_FILE)}`);
 
-if (fs.existsSync(MENU_FILE)) {
-  fs.unlinkSync(MENU_FILE);
+if (fs.existsSync(OUTPUT_FILE)) {
+  fs.unlinkSync(OUTPUT_FILE);
 }
 
 function parseMenu(menuRoot) {
@@ -95,7 +99,7 @@ getMenuProc.on('exit', function (code, signal) {
       menu: menu
     }
     let menuContent = compileFn(locals);
-    fs.writeFileSync(MENU_FILE, menuContent);
+    fs.writeFileSync(OUTPUT_FILE, menuContent);
   } else {
     console.error(`Can't find file ${HOME_PAGE_NAME}`);
   }
