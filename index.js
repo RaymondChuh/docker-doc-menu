@@ -1,6 +1,6 @@
 var staticServer = require('node-static');
 
-var server = new staticServer.Server('./');
+var server = new staticServer.Server('./dist');
 var path = require('path');
 const PORT = process.env.PORT || 5000;
 console.log(`Listening to port ${PORT}`);

@@ -1,7 +1,11 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
 install:
-  - npm install
+- npm install
 script:
-  - npm start
+- npm start
+deploy:
+  provider: heroku
+  api_key:
+    secure: SrMV8zgFATOaoLvlAWMB1c14sEWTwMmJ8Cwf74eEGROtQunbZiYCpNvUh506lGTETuBi6RxsZywHnOZnB7aXwP0Oc7YhuyRjNV5KO4J4tBqWLTYcddmvgLA+Qoj/FA4LNo1Mp3H/uo2yJDhdFFnOl7QL/fo+NIX4GaLtUk5p1rRmLbMqRSb5oXrYykKO1U6qaGWG8edvgtA8s6ZKO6p7c+7ML8OgdE9whJbpm1TwUKlZcgQ35A5SRdJESmXXf50OC+f01V1w5m6kOan8/GhWi8EK2HzA/8KmxVCF5kU6g/beSaetzfHtgu3pmuQ/xGGrqsdsa9rVhqty4DZ65SRpOHStwvPGNjQfCCUFnJ7O/6M1nFzy1HLvxfw5i45bRlWOGBIx+yyMx1SBLl9hOzczpWFAefmikKaSGXsWyoQhxJblc/Y9iM6yl1zhYBsLUXXkTwlHfzKxyL3dBoebpXwCZH9dgdoiaGvzaw7ChLNpyVLi8PW8wV+cQZD4hKfdP3z4ARcdtOvrCWBKzTnpHX5L9tZeokCxmUKefO/CHJyxm1x3tSIdjHc/FscYSAXy/O+RPLEocdJq9gkNsh/ZRM4DoxggLZJYmsJibrGbNLQIpi6UmUxQ0y80QUk6dlr8wyAspAXvpi7sHbqVSdoCAdF7Fzx0bIybhFvO7/IQvjn7Ino=
