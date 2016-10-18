@@ -6,6 +6,8 @@ install:
 script:
 - npm start
 before_deploy:
+  - git config --global user.email "rennechuh@gmail.com"
+  - git config --global user.name "Raymond Zhu"
   - git add --all
   - git commit -m "deploy time $(date +%s)"
 deploy:
