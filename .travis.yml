@@ -5,6 +5,9 @@ install:
 - npm install
 script:
 - npm start
+before_deploy:
+  - git add --all
+  - git commit -m "deploy time $(date +%s)"
 deploy:
   provider: heroku
   api_key:
