@@ -2,6 +2,15 @@
 <html lang="en">
   <head>
     <title>Docker Menu</title>
+    <script>
+window.smartlook||(function(d) {
+var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+})(document);
+smartlook('init', 'f520601c3e3d1fa58528ecec2120ed84e0d612a6');
+
+    </script>
   </head>
   <body>
     <h1>Docker menu</h1>
@@ -9,7 +18,7 @@
       <li><a href="https://docs.docker.com/">Welcome to the Docs</a></li>
       <ul>
         <ul>
-          <li><a href="https://docs.docker.com/engine/installation/mac/">Installation on Mac OS X</a></li>
+          <li><a href="https://docs.docker.com/engine/installation/mac/">Installation on macOS</a></li>
           <li><a href="https://docs.docker.com/engine/installation/windows/">Installation on Windows</a></li>
           <ul>
             <li><a href="https://docs.docker.com/engine/installation/linux/ubuntulinux/">Installation on Ubuntu</a></li>
@@ -19,7 +28,6 @@
             <li><a href="https://docs.docker.com/engine/installation/linux/debian/">Installation on Debian</a></li>
             <li><a href="https://docs.docker.com/engine/installation/linux/archlinux/">Installation on Arch Linux</a></li>
             <li><a href="https://docs.docker.com/engine/installation/linux/cruxlinux/">Installation on CRUX Linux</a></li>
-            <li><a href="https://docs.docker.com/engine/installation/linux/frugalware/">Installation on FrugalWare</a></li>
             <li><a href="https://docs.docker.com/engine/installation/linux/gentoolinux/">Installation on Gentoo</a></li>
             <li><a href="https://docs.docker.com/engine/installation/linux/oracle/">Installation on Oracle Linux</a></li>
             <li><a href="https://docs.docker.com/engine/installation/linux/SUSE/">Installation on openSUSE and SUSE Linux Enterprise</a></li>
@@ -69,6 +77,7 @@
             <li><a href="https://docs.docker.com/engine/userguide/networking/">Docker container networking</a></li>
             <li><a href="https://docs.docker.com/engine/userguide/networking/work-with-networks/">Work with network commands</a></li>
             <li><a href="https://docs.docker.com/engine/userguide/networking/get-started-overlay/">Get started with multi-host networking</a></li>
+            <li><a href="https://docs.docker.com/engine/userguide/networking/get-started-macvlan/">Get started with macvlan network driver</a></li>
             <li><a href="https://docs.docker.com/engine/userguide/networking/overlay-security-model/">Swarm mode overlay network security model</a></li>
             <li><a href="https://docs.docker.com/engine/userguide/networking/configure-dns/">Configure container DNS in user-defined networks</a></li>
             <ul>
@@ -101,6 +110,7 @@
             <li><a href="https://docs.docker.com/engine/admin/logging/splunk/">Splunk logging driver</a></li>
           </ul>
           <li><a href="https://docs.docker.com/engine/admin/dsc/">PowerShell DSC Usage</a></li>
+          <li><a href="https://docs.docker.com/engine/admin/ansible/">Using Ansible</a></li>
           <li><a href="https://docs.docker.com/engine/admin/chef/">Using Chef</a></li>
           <li><a href="https://docs.docker.com/engine/admin/puppet/">Using Puppet</a></li>
           <li><a href="https://docs.docker.com/engine/admin/using_supervisord/">Using Supervisor with Docker</a></li>
@@ -150,6 +160,7 @@
           <li><a href="https://docs.docker.com/engine/security/seccomp/">Seccomp security profiles for Docker</a></li>
         </ul>
         <ul>
+          <li><a href="https://docs.docker.com/engine/extend/">Managed plugin system</a></li>
           <li><a href="https://docs.docker.com/engine/extend/plugins_authorization/">Access authorization plugin</a></li>
           <li><a href="https://docs.docker.com/engine/extend/plugins/">Extending Engine with plugins</a></li>
           <li><a href="https://docs.docker.com/engine/extend/plugins_network/">Docker network driver plugins</a></li>
@@ -431,12 +442,14 @@
             <li><a href="https://docs.docker.com/docker-trusted-registry/reference/">Overview</a></li>
             <li><a href="https://docs.docker.com/docker-trusted-registry/reference/backup/">backup</a></li>
             <li><a href="https://docs.docker.com/docker-trusted-registry/reference/dumpcerts/">dumpcerts</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/images/">images</a></li>
             <li><a href="https://docs.docker.com/docker-trusted-registry/reference/install/">install</a></li>
             <li><a href="https://docs.docker.com/docker-trusted-registry/reference/join/">join</a></li>
             <li><a href="https://docs.docker.com/docker-trusted-registry/reference/migrate/">migrate</a></li>
             <li><a href="https://docs.docker.com/docker-trusted-registry/reference/reconfigure/">reconfigure</a></li>
             <li><a href="https://docs.docker.com/docker-trusted-registry/reference/remove/">remove</a></li>
             <li><a href="https://docs.docker.com/docker-trusted-registry/reference/restore/">restore</a></li>
+            <li><a href="https://docs.docker.com/docker-trusted-registry/reference/upgrade/">upgrade</a></li>
           </ul>
         </ul>
         <ul>
@@ -615,6 +628,7 @@
       </ul>
       <ul>
         <li><a href="https://docs.docker.com/docker-store/">Docker Store Overview</a></li>
+        <li><a href="https://docs.docker.com/docker-store/">Submit a product to Docker Store</a></li>
         <li><a href="https://docs.docker.com/docker-store/faq/">Docker Store FAQs</a></li>
       </ul>
       <ul>
@@ -677,7 +691,7 @@
             <li><a href="https://docs.docker.com/registry/recipes/apache/">Authenticating proxy with apache</a></li>
             <li><a href="https://docs.docker.com/registry/recipes/nginx/">Authenticating proxy with nginx</a></li>
             <li><a href="https://docs.docker.com/registry/recipes/mirror/">Mirroring Docker Hub</a></li>
-            <li><a href="https://docs.docker.com/registry/recipes/osx-setup-guide/">Running on OS X</a></li>
+            <li><a href="https://docs.docker.com/registry/recipes/osx-setup-guide/">Running on macOS</a></li>
           </ul>
           <ul>
             <li><a href="https://docs.docker.com/registry/spec/">Reference Overview</a></li>
